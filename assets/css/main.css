@@ -3997,3 +3997,12 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+	/* Styling for the logo image */
+	.logo-image {
+		max-width: 150px; /* Adjust the size as needed */
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 20px; /* Adjust the margin as needed */
+	}
