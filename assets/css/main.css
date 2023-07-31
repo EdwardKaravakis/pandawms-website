@@ -3455,6 +3455,18 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
+	#header #logo-container {
+		  position: absolute;
+		  top: 0;
+		  left: 1.25em;
+		  display: none;
+		  height: 100%;
+		  align-items: center;
+		}
+		#header img {
+		  height: 30px;
+		}
+
 		#header h1 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
@@ -3554,6 +3566,14 @@ input, select, textarea {
 
 		#header.alt {
 			background: transparent;
+		}
+
+		#header.alt #logo-container {
+		  -moz-pointer-events: none;
+		  -webkit-pointer-events: none;
+		  -ms-pointer-events: none;
+		  pointer-events: none;
+		  opacity: 0;
 		}
 
 			#header.alt h1 {
